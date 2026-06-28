@@ -23,24 +23,29 @@ This repository houses the complete frontend codebase for my personal engineerin
 ## 📂 Project Structure
 
 ```bash
-Portfolio/
-├── src/
-│   ├── components/
-│   │   └── portfolio/
-│   │       ├── Navbar.jsx              # Minimal fixed navigation layer with resume download
-│   │       ├── HeroSection.jsx          # Alphanumeric main presentation block
-│   │       ├── AboutSection.jsx         # System abstraction profile copy
-│   │       ├── TechStackSection.jsx     # Structural technology matrix
-│   │       ├── EducationSection.jsx     # Academic timelines grid
-│   │       ├── ProjectsSection.jsx      # Root component for project portfolio orchestration
-│   │       ├── ProjectCard.jsx          # Individual atomic project renderer
-│   │       ├── WritingsSection.jsx      # Technical thoughts & Medium deep-dive articles list
-│   │       └── ContactFooter.jsx       # Variable-declaration code style contact wrapper
-│   ├── pages/
-│   │   ├── Home.jsx                    # Root view rendering structural components sequentially
-│   │   └── PageNotFound.jsx            # Custom 404 terminal panic page component
-│   ├── App.jsx                         # Main app router deployment layout
-│   ├── index.css                       # Native CSS layer compiling Tailwind variables
-│   └── main.jsx                        # DOM entry point
-├── package.json                        # System dependency registry
-└── vite.config.js                      # Vite build pipeline matrix
+Directory structure:
+└── khan30-ai-portfolio/
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── App.css
+        ├── App.jsx
+        ├── Home.jsx
+        ├── index.css
+        ├── main.jsx
+        └── components/
+            ├── ScrollToTop.jsx
+            └── sections/
+                ├── About.jsx
+                ├── ContactFooter.jsx
+                ├── Education.jsx
+                ├── GridSection.jsx
+                ├── Hero.jsx
+                ├── Navbar.jsx
+                ├── ProjectCard.jsx
+                ├── ProjectSection.jsx
+                ├── TechStack.jsx
+                └── Writing.jsx
