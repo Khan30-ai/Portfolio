@@ -12,7 +12,7 @@ export default function AboutSection() {
                     I enjoy working on backend development, REST APIs, authentication, and writing maintainable code. I'm always looking for opportunities to improve my engineering skills by building practical software and learning from every project.
                 </p>
                 <div className="pt-6 border-t border-zinc-800 mt-8">
-                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 font-mono text-[41px] uppercase tracking-wider">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 font-mono text-[13px] uppercase tracking-wider">
                         <div>
                             <span className="text-zinc-700 block mb-1.5">Location</span>
                             <span className="text-zinc-300">Kolkata</span>
