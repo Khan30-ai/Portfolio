@@ -8,12 +8,12 @@ const EDUCATION = [
         timeline: 'Expected Graduation: 2027',
     },
     {
-        degree: 'Higher Secondary (12th)',
+        degree: 'Higher Secondary (WBCHSE)',
         institution: 'Khiddirpur Muslim High School',
         timeline: 'Completed in 2023',
     },
     {
-        degree: 'Secondary (10th)',
+        degree: 'Secondary (WBBSE)',
         institution: 'Khalsa English High School',
         timeline: 'Completed in 2021',
     },
@@ -37,7 +37,7 @@ export default function EducationSection() {
                                     {edu.institution}
                                 </p>
                             </div>
-                            <span className="font-mono text-[11px] text-zinc-600 uppercase tracking-wider md:text-right md:whitespace-nowrap md:pt-1">
+                            <span className="font-mono text-[14px] text-zinc-600 uppercase tracking-wider md:text-right md:whitespace-nowrap md:pt-1">
                                 {edu.timeline}
                             </span>
                         </div>
