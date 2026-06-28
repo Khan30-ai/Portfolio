@@ -1,16 +1,47 @@
 import React from 'react';
 
-const HERO_IMAGE = "https://media.base44.com/images/public/6a40c0f3e2c39600f2c9d034/ef2bb1907_generated_dfdc16a5.png";
-
 export default function HeroSection() {
     return (
         <section className="border-b border-zinc-800 relative overflow-hidden">
-            <div className="absolute inset-0 opacity-[0.07]">
-                <img
-                    src={HERO_IMAGE}
-                    alt="Macro shot of mechanical keyboard with emerald backlight"
-                    className="w-full h-full object-cover"
+            {/* Background Grid */}
+            <div className="absolute inset-0 pointer-events-none overflow-hidden">
+                {/* Ambient Emerald Glow */}
+                <div
+                    className="absolute -left-56 top-16 h-96 w-96 rounded-full blur-[140px]"
+                    style={{ background: "rgba(16,185,129,0.05)" }}
                 />
+
+                <div
+                    className="absolute -right-24 bottom-0 h-80 w-80 rounded-full blur-[120px]"
+                    style={{ background: "rgba(16,185,129,0.05)" }}
+                />
+
+                {/* Grid */}
+                <div
+                    className="absolute inset-0 opacity-[0.20]"
+                    style={{
+                        backgroundImage: `
+        linear-gradient(to right, rgba(113,113,122,0.65) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(113,113,122,0.65) 1px, transparent 1px)
+      `,
+                        backgroundSize: "44px 44px",
+                    }}
+                />
+
+                {/* Glowing Nodes */}
+                <div className="absolute right-[15%] top-[22%] h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_16px_rgba(16,185,129,0.9)] animate-pulse" />
+
+                <div className="absolute right-[22%] top-[38%] h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_16px_rgba(16,185,129,0.8)] animate-pulse" />
+
+                <div className="absolute left-[72%] bottom-[26%] h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_16px_rgba(16,185,129,0.8)] animate-pulse" />
+
+                <div className="absolute left-[42%] bottom-[18%] h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_16px_rgba(16,185,129,0.8)] animate-pulse" />
+
+                {/* Fade */}
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-zinc-950/20 to-zinc-950" />
+
+                {/* Vignette */}
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_25%,#09090b_92%)]" />
             </div>
 
             <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 md:py-32 lg:py-40">
