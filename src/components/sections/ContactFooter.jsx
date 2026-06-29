@@ -59,7 +59,7 @@ export default function ContactFooter() {
 
                     <div className="pl-8 md:pl-12">
                         <a href="https://medium.com/@arshikhan80708" target="_blank" rel="noopener noreferrer" className="text-emerald-500 hover:text-emerald-400 transition-colors">
-                            'medium.com/@arshikhan'
+                            'medium.sh'
                         </a>
                         <span className="text-zinc-500">,</span>{' '}
                     </div>
