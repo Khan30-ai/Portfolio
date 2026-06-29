@@ -1,17 +1,15 @@
 import React from 'react';
 import GridSection from './GridSection';
-import { Sparkle } from 'lucide-react';
 
 export default function ContactFooter() {
     return (
         <>
             <GridSection title="CONTACT" id="contact">
-                <h2 className="text-2xl md:text-3xl font-mono font-bold tracking-tight text-zinc-50 mb-8 break-all">
+                <h2 className="text-2xl md:text-3xl font-mono font-bold tracking-tight text-zinc-50 mb-8 break-all flex flex-wrap">
                     contact_arshikhan<span className="text-zinc-600">.</span><span className="text-purple-400">details</span><span className="text-zinc-600">()</span>;
                 </h2>
 
-                <div className="relative border border-zinc-800 p-5 md:p-8 font-mono text-[13px] md:text-sm leading-[1.9] overflow-x-auto">
-                    <Sparkle className="absolute bottom-4 right-4 text-emerald-500/20" size={22} />
+                <div className="relative border border-zinc-800 p-5 md:p-8 font-mono text-[12px] md:text-lg leading-[1.9] overflow-x-auto">
 
                     <div>
                         <span className="text-sky-400">const</span>{' '}
@@ -30,14 +28,13 @@ export default function ContactFooter() {
 
                     </div>
 
-                    <div className="pl-4 md:pl-6">
+                    <div className="pl-4 md:pl-6 whitespace-nowrap">
                         <span className="text-zinc-100">email</span>
-                        <span className="text-zinc-500">:</span>{' '}
+                        <span className="text-zinc-500">: </span>
                         <a href="mailto:arshikhan80708@gmail.com" className="text-emerald-500 hover:text-emerald-400 transition-colors">
                             'arshikhan80708@gmail.com'
                         </a>
-                        <span className="text-zinc-500">,</span>{' '}
-
+                        <span className="text-zinc-500">,</span>
                     </div>
 
                     <div className="pl-4 md:pl-6">
