@@ -50,23 +50,25 @@ export default function HeroSection() {
                     System Online — Available for Work
                 </div>
 
-                <h1 className="font-black tracking-tighter leading-[0.9] mb-8">
-                    <div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-                        MD ARSHI KHAN <span className="text-white">//</span>
+                <h1 className="font-black tracking-tighter leading-[0.9] mb-8 select-none">
+                    <div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl flex flex-wrap gap-x-3 row-gap-1">
+                        <span className="text-white">MD ARSHI</span>
+                        <span className="inline-block text-white whitespace-nowrap">
+                            KHAN <span className="text-white">//</span>
+                        </span>
                     </div>
-
-                    <div className="mt-1 max-w-[65%]">
+                    <div className="mt-4 max-w-full sm:max-w-[65%]">
                         <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-zinc-600 leading-none">
                             FULL STACK
                         </span>
-                        <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-zinc-600 leading-none">
+                        <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-zinc-600 leading-none mt-1">
                             DEVELOPER
                         </span>
                     </div>
                 </h1>
 
                 <p className="text-zinc-400 text-base md:text-lg max-w-lg font-mono leading-relaxed">
-                    I build full-stack web applications with React, Node.js and MongoDB. Most of my learning comes from building products and solving real engineering problems.
+                    I turn caffeine and complex logic into full-stack applications across the MERN ecosystem. Most of my learning comes from breaking and building hands-on projects, optimizing backend queries and wondering why a console.log statement just saved my entire build from crashing.
                 </p>
 
                 <div className="mt-12 flex gap-6 font-mono text-sm">
