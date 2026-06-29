@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './Home';
+import PageNotFound from './components/sections/PageNotFound';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Baaki sab login/register routes ka kissa khatam */}
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
   )
