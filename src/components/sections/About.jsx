@@ -6,10 +6,10 @@ export default function AboutSection() {
         <GridSection title="ABOUT" id="about">
             <div className="max-w-2xl space-y-6">
                 <p className="text-lg md:text-xl text-zinc-300 leading-relaxed">
-                    I'm a final-year Electrical Engineering student at Heritage Institute of Technology with a strong interest in software engineering. Most of my experience comes from building projects from scratch, where I've learned how frontend, backend, databases, and deployment come together to create real applications.
+                    A final year Electrical Engineering student at Heritage Institute of Technology, Kolkata, focused on full-stack development using the MERN stack. I build web applications from scratch, handling everything from frontend layout and secure database management to deployment pipelines. I pivoted into software engineering because writing code felt way more electrifying than fixing circuits and currently exploring DevOps practices like Docker and CI/CD workflows to build efficient deployment pipelines.
                 </p>
                 <p className="text-zinc-400 leading-relaxed">
-                    I enjoy working on backend development, REST APIs, authentication, and writing maintainable code. I'm always looking for opportunities to improve my engineering skills by building practical software and learning from every project.
+                    My core focus lies in backend scalability, designing robust REST APIs, secure authentication flows, and clean codebase management. I'm deep into database optimization, mastering system workflows, and actively looking for software development opportunities where I can solve actual engineering problems at scale.
                 </p>
                 <div className="pt-6 border-t border-zinc-800 mt-8">
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 font-mono text-[13px] uppercase tracking-wider">
