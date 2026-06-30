@@ -7,7 +7,6 @@ export default function Navbar() {
     const [mobileOpen, setMobileOpen] = useState(false);
 
     const handleResumeClick = () => {
-        // Placeholder: swap with actual resume URL
         const link = document.createElement('a');
         link.href = '#';
         link.download = 'Md_Arshi_Khan.pdf';
