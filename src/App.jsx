@@ -6,7 +6,6 @@ import PageNotFound from './components/sections/PageNotFound';
 function App() {
   return (
     <Router>
-      {/* Agar ScrollToTop file copy ki hai toh ise rehnedo, nahi toh delete kar sakte ho */}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
